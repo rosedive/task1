@@ -31,28 +31,53 @@
             <li class="item2"><a href="#">Services</a></li>
             <li class="item3 "><a class="contact-link active" href="#">Contact</a></li>
         </ul>
- 
+
     </aside>
     <article class="content">
 
         <div class="form-area">
-            <form class="form" action="" post="">
-                <div class="form-input">
-                    Name<input class="form-item" type="text" required />
-                </div>
-                <div class="form-input">
-                    Email<input class="form-item" type="text" required />
-                </div>
-                <div class="form-input">
-                    Gender
-                    <input class="form-item" type="radio" name="gender" required />Male
-                    <input class="form-item" type="radio" name="gender" required />Female
-                </div>
-                <div class="form-input">
-                    <span class="mess">Message</span> <textarea class="form-item" ></textarea>
-                </div>
-                <button class="submit">Submit</button>
-            </form>
+            <table>
+                <form class="form">
+                    <tr>
+                        <th>
+                            <label for="name">Username</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="name" type="text" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Email</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="email" type="text" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Gender</label>
+                        </th>
+                        <td>
+                            <input class="form-item" type="radio" id="gende" name="gender" required />Male
+                            <input class="form-item" type="radio" id="gender" name="gender" required />Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Description</label>
+                        </th>
+                        <td>
+                            <textarea class="form-input"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <button class="submit">Submit</button>
+                        </th>
+                    </tr>
+                </form>
+            </table>
         </div>
     </article>
     <footer class="footer">
