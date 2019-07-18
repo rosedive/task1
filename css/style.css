@@ -1,0 +1,175 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #ffb3b3;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+ul.top_menu {
+    float: right;
+}
+
+.top_menu li {
+    float: left;
+    width: auto;
+}
+
+.top_menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.top_menu li a:hover {
+    text-decoration: underline;
+}
+
+.logo_image {
+    width: 110px;
+    float: left;
+    margin: 0;
+}
+
+.image_top {
+    width: 100%;
+}
+
+.below_top_image {
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.side_menu {
+    width: 300px;
+    float: left;
+}
+
+.side_menu li {
+    background-color: #ffb3b3;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.side_menu li:hover {
+    opacity: 0.6;
+}
+
+.side_menu li a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+}
+
+.try {
+    background: #ffe6e6;
+}
+
+.content {
+    width: 660px;
+    margin-left: 20px;
+    float: left;
+    font-size: 1.5rem;
+}
+
+.identification {
+    height: 350px;
+    padding: 20px;
+}
+
+.identification input[type=text],
+textarea {
+    width: 480px;
+    resize: vertical;
+}
+
+
+/* .identification textarea {
+  height: 7rem;
+} */
+
+.identification input[type=submit] {
+    background-color: #73c6b6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.expand {
+    width: 150px;
+    height: 7rem;
+}
+
+.identification table label {
+    width: 150px;
+}
+
+.identification input[type=submit]:hover {
+    background-color: #9e9595;
+    float: center;
+}
+
+.identification form {
+    width: 630px;
+}
+
+.identification table {
+    width: 630px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.side_menu .point {
+    background-color: #fcecec;
+}
+
+.side_menu .point a {
+    color: #4d4d4d;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #4d4d4d;
+    display: table;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
