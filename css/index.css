@@ -1,140 +1,150 @@
+body {
+    width: 70%;
+    margin: 0% 0% 15% 15%
+}
 
-  body{
-      height: 100vh;
-      width: 80%;
-      position: relative;
-      left: 10%;
-      right: 10%;
-  }
-  .navbar{
-      background-color:pink;
-      height:67px;
-  }  
-  .logo{
-      padding:5px;
-      font-size:20px;
-  }
-  .nav-item{  
-      float:right;    
-      position: relative;
-      right:1rem;     
-      padding:5px;   
+.nav-bar {
+    background: pink;
+    height: 70px;
+    line-height: 70px;
 }
-  .nav-item >li > a{
-      text-decoration: none;
-      font-size:22px;
-  }
-  .item{
-      display: inline-block;
-      padding:5px;
-      
-  }
-  .item>a{
-      color:white;
-  }
-  .top-image{
-      width:100%;
-  }
-  .side-item{
-      display: inline;
-    
-  }
-  .side_menu{
-      margin-top: 1rem;
-  }
-  .item1{
-      background-color: pink;
-      height:60px;
-      margin: 7px 0;
-      width: 19rem;
-      margin-left:2px;
-      padding-top: 1rem;
 
-  }
-  .side-item > li >a{
-      text-decoration: none;
-      align-content: center;
-      color:white;
-      margin-left:10px;
-      font-size: 22px;
-  }
-  .item2{
-    background-color: pink;
-    height:60px;
-    margin: 7px 0;
-    width: 19rem;
-    margin-left:2px;
-    padding-top: 1rem;
+.nav-brand {
+    width: 100px;
+    height: auto;
+}
 
+.nav-navbar {
+    float: right;
 }
-  .item3 {
-    background-color: rgb(245, 228, 231);    
-    height:60px;
-    margin: 7px 0;
-    width: 19rem;
-    margin-left:2px;
-    padding-top: 1rem;
-    
-}
-.desc1 {
-    background-color:rgb(248, 222, 226);
-    font-size: 20px;
-}
-.desc1 {
-    padding: 1rem;
-    height: 10rem;;
 
+.nav-item {
+    padding-right: 5px;
 }
-.footer{
-    background-color: grey;
-    height:70px;
-    text-align: center;
-    position: relative;   
-    
-}
-.foot-content{
-    text-align: center;
-    padding-top: 1.9rem;
+
+li>a {
+    text-decoration: none;
     color: white;
-
+    font-size: 1.2rem
 }
 
-input[type="text"],textarea{
-    width:480px;
+.block {
+    display: inline-block
 }
-input[type="text"],input[type="radio"],textarea {
-    margin-left: 2rem;
+
+.top-section {
+    background-color: black
 }
-table {
-    position: relative;
-    bottom: 14rem;
-    font-weight: bold;
-    margin-left: 7rem;
-    left: 16em; 
-    width:100vh;
+
+.top-section-img {
+    width: 100%;
+    height: auto
+}
+
+aside {
+    width: 30%;
+}
+
+.side-items {
+    margin-left: 0px;
+}
+
+.side-item {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    background-size: cover;
+    margin-top: 5px;
+    line-height: 50px
+}
+#contact{
+    background-color:pink;
+    color: black;
+    opacity: .5;
+}
+#contact:hover{
+    background-color:mediumaquamarine
+}
+.side-item:hover{
+    background-color:mediumaquamarine
+}
+.nav-item:hover{
+    background-color: chocolate;
+    border-radius: 5px;
+    
+}
+
+.active {
+    background-color: rgb(245, 228, 231) !important;
+}
+
+.active>a {
+    color: black !important;
+}
+
+li[class="side-item"] a {
+    padding-left: 20px;
+}
+
+li[class="side-item active"] a {
+    padding-left: 20px;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(216, 105, 14);
+    color: white;
+    margin-left: 190px;
+    border: none;
+    transition: all 0.9s
+}
+
+.btn:hover {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(216, 105, 14);
+    opacity: .4;
+    color: black;
+    border: none;
+    transition: all 0.9s
+}
+
+article {
+    width: 70%;
+    float: right;
+    text-align: center
+}
+
+.mt-2 {
+    margin-top: 10px
+}
+
+tr {
+    height: 4rem
 }
 
 th {
     width: 150px;
-    height: 5rem;
-    text-align: end;
 }
 
-.submit{
-    background-color:skyblue;
-    color:white;
-    position: relative;
-    left:15rem;
-    height: 35px;
-    border-radius: 3px;
+input[type="text"], textarea {
+    width: 480px;
 }
-.submit:hover{
-    background-color: rgb(215, 247, 247);
-    color:black;
+
+.footer {
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.active{
-    color: black !important;
-}
-a:hover{
-   color: gray !important;
+
+.footer-content {
+    color: white;
 }

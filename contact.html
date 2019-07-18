@@ -2,85 +2,86 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/normalize.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <title>DIVE INTO CODE</title>
 </head>
 
 <body>
-  <header class="header">
-    <nav class="navbar">
-      <img class="logo" src="images/logo.png" alt="logo" width="100">
-        <ul class="nav-item">
-          <li class="item"><a href="#">Home</a></li>
-          <li class="item"><a href="#">About</a></li>
-          <li class="item"><a href="#">Services</a></li>
-          <li class="item"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="top-img">
-      <img src="images/business.png" alt="top-image" class="top-image">
-    </div>
-   </header>
-
-    <aside class="side_menu">
-        <ul class="side-item">
-            <li class="item1"><a href="#">About</a></li>
-            <li class="item2"><a href="#">Services</a></li>
-            <li class="item3 "><a class="contact-link active" href="#">Contact</a></li>
+    <header>
+        <nav class="nav-bar">
+            <img class="nav-brand block" src="images/logo.png" alt="logo">
+            <div class="nav-navbar">
+                <ul class="nav-items">
+                    <li class="nav-item block"><a href="#">Home</a></li>
+                    <li class="nav-item block"><a href="#">About</a></li>
+                    <li class="nav-item block"><a href="#">Services</a></li>
+                    <li class="nav-item block"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="top-section">
+            <img src="./images/business.png" class="top-section-img" />
+        </div>
+    </header>
+    <aside class="block mt-2">
+        <ul class="side-items">
+            <li class="side-item"><a href="#">About</a></li>
+            <li class="side-item"><a href="#">Services</a></li>
+            <li class="side-item" id="contact"><a href="#">Contact</a></li>
         </ul>
     </aside>
-    <article class="content">
-    <div class="form-area">
-    <form class="form">
-      <table>
-        <tr>
-          <th>
-            <label for="name">Username</label>
-          </th>
-         <td>
-           <input class="form-item" id="name" type="text" required />
-         </td>
-        </tr>
-        <tr>
-          <th>
-            <label for="name">Email</label>
-          </th>
-         <td>
-           <input class="form-item" id="email" type="text" required />
-         </td>
-        </tr>
-        <tr>
-          <th>
-            <label for="name">Gender</label>
-          </th>
-         <td>
-            <input class="form-item" type="radio" id="gende" name="gender" required />Male
-            <input class="form-item" type="radio" id="gender" name="gender" required />Female
-         </td>
-        </tr>
-        <tr>
-          <th>
-            <label for="name">Description</label>
-          </th>
-         <td>
-            <textarea class="form-input"></textarea>
-         </td>
-        </tr>
-        <tr>
-          <th>
-            <button class="submit">Submit</button>
-          </th>
-        </tr>
-      </table>
-    </form>
-    </div>
+    <article class="block mt-2">
+        <center>
+            <form class="center">
+                <table>
+                    <tr>
+                        <th>
+                            <label for="name">Username</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="name" type="text" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Email</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="email" type="text" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Gender</label>
+                        </th>
+                        <td>
+                            <input class="form-item" type="radio" id="gende" name="gender" required />Male
+                            <input class="form-item" type="radio" id="gender" name="gender" required />Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Description</label>
+                        </th>
+                        <td>
+                            <textarea class="form-input"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" class="btn" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
     </article>
     <footer class="footer">
-      <p class="foot-content">Copyright &copy; 2016 DIVE INC ALL RIGHTS RESERVED.</p>
-
+        <span class="footer-content">Copyright ©2016 DIVE INC ALL RIGHTS RESERVED</span>
     </footer>
-  </body>
+</body>
 
 </html>
